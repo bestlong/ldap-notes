@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+
+  openldap:
+    ### https://hub.docker.com/r/osixia/openldap
+    image: osixia/openldap
+    # environment:
+    #   - LDAP_TLS=false
+    ports:
+      - 389:389
+      - 636:636
+
+  phpldapadmin:
+    ### https://hub.docker.com/r/osixia/phpldapadmin
+    image: osixia/phpldapadmin
+    environment:
+      - PHPLDAPADMIN_LDAP_HOSTS=openldap
+      - PHPLDAPADMIN_HTTPS=false
+    ports:
+      - 8080:80
+      - 8443:443
+    depends_on:
+      - openldap
+
+  lam:
+    ### https://hub.docker.com/r/ldapaccountmanager/lam
+    image: ldapaccountmanager/lam
+    # volumes:
+    #   - /data/config:/config
+    ports:
+      - 8081:80
+    depends_on:
+      - openldap
