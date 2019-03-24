@@ -12,6 +12,7 @@ docker-compose up -d
   * <http://localhost:8080/>
 * 進入 LAM 主畫面開瀏覽器
   * <http://localhost:8081/>
+* 用 Safari 瀏覽會出現無法打開網頁的錯誤(會被跳轉 https)，請改用 127.0.0.1 IP 當網址
 
 登入 DN 是 cn=admin,dc=example,dc=org 密碼是 admin
 
