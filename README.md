@@ -9,7 +9,7 @@
   * [ApacheDS](https://directory.apache.org/apacheds/)
 * 工具
   * [phpLDAPadmin](http://phpldapadmin.sourceforge.net/wiki/index.php/Main_Page)
-    * 很久沒發佈新版本了
+    * 用 PHP 開發，不過很久沒發佈新版本了
   * [Apache Directory Studio](https://directory.apache.org/studio/)
     * 應該是用 Eclipse
   * [LDAP Account Manager (LAM)](https://www.ldap-account-manager.org/lamcms/)
@@ -22,3 +22,7 @@
 
 * 389 明碼傳輸
 * 636 TLS/SASL 加密傳輸
+
+## 用 Docker compose 環境研究
+
+要到 docker 目錄下操作
