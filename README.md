@@ -1,4 +1,6 @@
-# LDAP (Lightweight Directory Access Protocol) 輕型目錄存取協定
+# LDAP 研究筆記
+
+LDAP (Lightweight Directory Access Protocol) 輕型目錄存取協定
 
 集中帳號管理，很多軟體系統都支援 LDAP 服務
 
