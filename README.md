@@ -19,6 +19,8 @@ LDAP (Lightweight Directory Access Protocol) 輕型目錄存取協定
     * <https://github.com/LDAPAccountManager/lam>
     * 用 PHP 開發
     * 在 ubuntu 可用 `apt-get install ldap-account-manager` 指令安裝
+  * [JXplorer](http://jxplorer.org/)
+    * <https://sourceforge.net/projects/jxplorer/>
 
 ## LDAP 會使用到的網路埠
 
